@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace KootLabs\TelegramBotDialogs\Exceptions;
+namespace AlexStroganovRu\TelegramBotDialogs\Exceptions;
 
 final class InvalidDialogStep extends \LogicException implements DialogException
 {

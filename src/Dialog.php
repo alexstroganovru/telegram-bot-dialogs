@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace KootLabs\TelegramBotDialogs;
+namespace AlexStroganovRu\TelegramBotDialogs;
 
-use KootLabs\TelegramBotDialogs\Exceptions\InvalidDialogStep;
-use KootLabs\TelegramBotDialogs\Exceptions\UnexpectedUpdateType;
+use AlexStroganovRu\TelegramBotDialogs\Exceptions\InvalidDialogStep;
+use AlexStroganovRu\TelegramBotDialogs\Exceptions\UnexpectedUpdateType;
 use Telegram\Bot\Api;
 use Telegram\Bot\Objects\Update;
 
@@ -54,7 +54,7 @@ abstract class Dialog
     }
 
     /**
-     * @throws \KootLabs\TelegramBotDialogs\Exceptions\InvalidDialogStep
+     * @throws \AlexStroganovRu\TelegramBotDialogs\Exceptions\InvalidDialogStep
      * @throws \Telegram\Bot\Exceptions\TelegramSDKException
      */
     final public function proceed(Update $update): void
@@ -187,7 +187,7 @@ abstract class Dialog
 
     /**
      * @throws \Telegram\Bot\Exceptions\TelegramSDKException
-     * @throws \KootLabs\TelegramBotDialogs\Exceptions\InvalidDialogStep
+     * @throws \AlexStroganovRu\TelegramBotDialogs\Exceptions\InvalidDialogStep
      */
     private function proceedConfiguredStep(array $stepConfig, Update $update, int $currentStepIndex): void
     {

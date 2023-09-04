@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace KootLabs\TelegramBotDialogs\Laravel\Stores;
+namespace AlexStroganovRu\TelegramBotDialogs\Laravel\Stores;
 
 use Illuminate\Contracts\Redis\Connection;
-use KootLabs\TelegramBotDialogs\Storages\Store;
+use AlexStroganovRu\TelegramBotDialogs\Storages\Store;
 
 final class RedisStoreAdapter implements Store
 {

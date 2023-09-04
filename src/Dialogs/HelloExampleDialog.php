@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace KootLabs\TelegramBotDialogs\Dialogs;
+namespace AlexStroganovRu\TelegramBotDialogs\Dialogs;
 
-use KootLabs\TelegramBotDialogs\Dialog;
+use AlexStroganovRu\TelegramBotDialogs\Dialog;
 use Telegram\Bot\Objects\Update;
 
 /**

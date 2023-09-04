@@ -2,9 +2,9 @@
 
 ```php
 use Telegram\Bot\Api;
-use KootLabs\TelegramBotDialogs\DialogManager;
-use KootLabs\TelegramBotDialogs\Dialogs\HelloExampleDialog;
-use KootLabs\TelegramBotDialogs\Storages\Drivers\RedisStore;
+use AlexStroganovRu\TelegramBotDialogs\DialogManager;
+use AlexStroganovRu\TelegramBotDialogs\Dialogs\HelloExampleDialog;
+use AlexStroganovRu\TelegramBotDialogs\Storages\Drivers\RedisStore;
 
 require __DIR__.'/vendor/autoload.php';
 

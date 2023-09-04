@@ -22,12 +22,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "KootLabs\\TelegramBotDialogs\\": "src/"
+            "AlexStroganovRu\\TelegramBotDialogs\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KootLabs\\TelegramBotDialogs\\Tests\\": "tests/"
+            "AlexStroganovRu\\TelegramBotDialogs\\Tests\\": "tests/"
         }
     },
     "config": {
@@ -39,7 +39,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KootLabs\\TelegramBotDialogs\\Laravel\\DialogsServiceProvider"
+                "AlexStroganovRu\\TelegramBotDialogs\\Laravel\\DialogsServiceProvider"
             ]
         }
     },

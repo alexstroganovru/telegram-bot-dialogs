@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace KootLabs\TelegramBotDialogs\Tests;
+namespace AlexStroganovRu\TelegramBotDialogs\Tests;
 
 use Telegram\Bot\Objects\Update;
 

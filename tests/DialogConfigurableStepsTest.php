@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace KootLabs\TelegramBotDialogs\Tests;
+namespace AlexStroganovRu\TelegramBotDialogs\Tests;
 
-use KootLabs\TelegramBotDialogs\Dialog;
-use KootLabs\TelegramBotDialogs\Exceptions\InvalidDialogStep;
+use AlexStroganovRu\TelegramBotDialogs\Dialog;
+use AlexStroganovRu\TelegramBotDialogs\Exceptions\InvalidDialogStep;
 
-/** @covers \KootLabs\TelegramBotDialogs\Dialog */
+/** @covers \AlexStroganovRu\TelegramBotDialogs\Dialog */
 final class DialogConfigurableStepsTest extends TestCase
 {
     use CreatesUpdate;

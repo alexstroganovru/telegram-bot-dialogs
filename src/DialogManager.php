@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace KootLabs\TelegramBotDialogs;
+namespace AlexStroganovRu\TelegramBotDialogs;
 
-use KootLabs\TelegramBotDialogs\Storages\Store;
+use AlexStroganovRu\TelegramBotDialogs\Storages\Store;
 use Telegram\Bot\Api;
 use Telegram\Bot\Objects\Message;
 use Telegram\Bot\Objects\Update;
@@ -23,7 +23,7 @@ final class DialogManager
 
     /**
      * Activate a new Dialog.
-     * to start it - call {@see \KootLabs\TelegramBotDialogs\DialogManager::proceed}
+     * to start it - call {@see \AlexStroganovRu\TelegramBotDialogs\DialogManager::proceed}
      */
     public function activate(Dialog $dialog): void
     {
@@ -54,7 +54,7 @@ final class DialogManager
 
     /**
      * Run next step of the active Dialog.
-     * This is a thin wrapper for {@see \KootLabs\TelegramBotDialogs\Dialog::proceed}
+     * This is a thin wrapper for {@see \AlexStroganovRu\TelegramBotDialogs\Dialog::proceed}
      * to store and restore Dialog state between request-response calls.
      */
     public function proceed(Update $update): void

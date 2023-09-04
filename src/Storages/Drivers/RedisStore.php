@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace KootLabs\TelegramBotDialogs\Storages\Drivers;
+namespace AlexStroganovRu\TelegramBotDialogs\Storages\Drivers;
 
-use KootLabs\TelegramBotDialogs\Storages\Store;
+use AlexStroganovRu\TelegramBotDialogs\Storages\Store;
 
 final class RedisStore implements Store
 {

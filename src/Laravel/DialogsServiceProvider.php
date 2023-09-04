@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace KootLabs\TelegramBotDialogs\Laravel;
+namespace AlexStroganovRu\TelegramBotDialogs\Laravel;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
-use KootLabs\TelegramBotDialogs\DialogManager;
-use KootLabs\TelegramBotDialogs\Laravel\Stores\RedisStoreAdapter;
-use KootLabs\TelegramBotDialogs\Storages\Store;
+use AlexStroganovRu\TelegramBotDialogs\DialogManager;
+use AlexStroganovRu\TelegramBotDialogs\Laravel\Stores\RedisStoreAdapter;
+use AlexStroganovRu\TelegramBotDialogs\Storages\Store;
 
 final class DialogsServiceProvider extends ServiceProvider implements DeferrableProvider
 {
